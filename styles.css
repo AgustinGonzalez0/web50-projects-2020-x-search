@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212; /* Fondo gris oscuro */
+    color: #e0e0e0; /* Color claro para el texto */
+}
+
+.top-right-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-right-links a {
+    color: #1a73e8;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.top-right-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+}
+
+.search-bar {
+    width: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-align: center;
+    background-color: #333; /* Fondo del input */
+    color: #e0e0e0; /* Texto del input */
+}
+
+.search-bar::placeholder {
+    color: #bbb; /* Color del texto placeholder */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons input {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #333;
+}
+
+.buttons input:hover {
+    background-color: #ddd;
+}
+
+.links {
+    margin-top: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #1a73e8;
+    margin: 0 15px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Botón avanzado */
+.advanced-button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.advanced-button:hover {
+    background-color: #155ab7;
+}
